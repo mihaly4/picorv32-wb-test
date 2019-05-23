@@ -15,7 +15,12 @@ end
 
 assign internal_rst = internal_rst_count != 2'b11;
 
-wire sdram_clk = clk;
+wire sdram_clk;
+wire sdram_py_clk;
+
+al_pll pl0(.refclk(clk),
+		.clk0_out(sdram_phy_clk),
+		.clk1_out(sdram_clk));
 
 `include "wb_common.v"
 
@@ -124,7 +129,7 @@ sdrc_top #(
 	.wb_cyc_i(wb_m2s_dram0_cyc),
 	.wb_cti_i(wb_m2s_dram0_cti),
 
-	.sdram_clk(sdram_clk),
+	.sdram_clk(sdram_phy_clk),
 	.sdram_resetn(~wb_rst),
 	.sdr_cs_n(dram0_sdram_cs_n),
 	.sdr_cke(dram0_sdram_cke),

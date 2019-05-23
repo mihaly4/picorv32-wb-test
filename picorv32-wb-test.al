@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
     <Project_Created_Time>2018-12-13 10:32:12</Project_Created_Time>
-    <TD_Version>4.2.217</TD_Version>
-    <UCode>10101110</UCode>
+    <TD_Version>4.4.433</TD_Version>
+    <UCode>11111010</UCode>
     <Name>picorv32-wb-test</Name>
     <HardWare>
         <Family>EG4</Family>
@@ -38,6 +38,7 @@
             <File>sdr_ctrl/rtl/wb2sdrc/wb2sdrc.v</File>
             <File>sdr_ctrl/rtl/lib/async_fifo.v</File>
             <File>sdr_ctrl/rtl/lib/sync_fifo.v</File>
+            <File>al_ip/al_pll.v</File>
         </Verilog>
         <ADC_FILE>io.adc</ADC_FILE>
         <SDC_FILE>clocks.sdc</SDC_FILE>
@@ -49,7 +50,7 @@
         <CREATEINDEX>user</CREATEINDEX>
     </TOP_MODULE>
     <Project_Settings>
-        <Step_Last_Change>2018-12-13 11:08:23</Step_Last_Change>
+        <Step_Last_Change>2019-05-23 11:55:35</Step_Last_Change>
         <Current_Step>60</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>
