@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
     <Project_Created_Time>2018-12-13 10:32:12</Project_Created_Time>
-    <TD_Version>4.4.433</TD_Version>
+    <TD_Version>4.5.12562</TD_Version>
     <UCode>11111010</UCode>
     <Name>picorv32-wb-test</Name>
     <HardWare>
@@ -50,7 +50,7 @@
         <CREATEINDEX>user</CREATEINDEX>
     </TOP_MODULE>
     <Project_Settings>
-        <Step_Last_Change>2019-05-23 11:55:35</Step_Last_Change>
+        <Step_Last_Change>2019-06-18 09:14:35</Step_Last_Change>
         <Current_Step>60</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>
